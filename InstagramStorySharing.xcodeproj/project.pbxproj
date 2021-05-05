@@ -56,15 +56,79 @@
 		5AE76DA82642CB3B00B63F90 /* InstagramStorySharing */ = {
 			isa = PBXGroup;
 			children = (
-				5AE76DA92642CB3B00B63F90 /* AppDelegate.swift */,
-				5AE76DAB2642CB3B00B63F90 /* SceneDelegate.swift */,
-				5AE76DAD2642CB3B00B63F90 /* ViewController.swift */,
-				5AE76DAF2642CB3B00B63F90 /* Main.storyboard */,
-				5AE76DB22642CB3E00B63F90 /* Assets.xcassets */,
-				5AE76DB42642CB3E00B63F90 /* LaunchScreen.storyboard */,
-				5AE76DB72642CB3E00B63F90 /* Info.plist */,
+				5AE76DBE2642CBD500B63F90 /* AppDelegate */,
+				5AE76DC02642CBFB00B63F90 /* Configurations */,
+				5AE76DBD2642CBBD00B63F90 /* Sources */,
+				5AE76DBF2642CBED00B63F90 /* Resources */,
 			);
 			path = InstagramStorySharing;
+			sourceTree = "<group>";
+		};
+		5AE76DBD2642CBBD00B63F90 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5AE76DC12642CC0A00B63F90 /* Model */,
+				5AE76DC22642CC0F00B63F90 /* View */,
+				5AE76DC32642CC1300B63F90 /* Controller */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5AE76DBE2642CBD500B63F90 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5AE76DA92642CB3B00B63F90 /* AppDelegate.swift */,
+				5AE76DAB2642CB3B00B63F90 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5AE76DBF2642CBED00B63F90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AE76DB22642CB3E00B63F90 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5AE76DC02642CBFB00B63F90 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				5AE76DB72642CB3E00B63F90 /* Info.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		5AE76DC12642CC0A00B63F90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AE76DC22642CC0F00B63F90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AE76DC42642CC2000B63F90 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AE76DC32642CC1300B63F90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AE76DAD2642CB3B00B63F90 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AE76DC42642CC2000B63F90 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5AE76DAF2642CB3B00B63F90 /* Main.storyboard */,
+				5AE76DB42642CB3E00B63F90 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LAT58Z69VZ;
-				INFOPLIST_FILE = InstagramStorySharing/Info.plist;
+				INFOPLIST_FILE = InstagramStorySharing/Configurations/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +372,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LAT58Z69VZ;
-				INFOPLIST_FILE = InstagramStorySharing/Info.plist;
+				INFOPLIST_FILE = InstagramStorySharing/Configurations/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
