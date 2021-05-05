@@ -116,3 +116,4 @@ iOSInjectionProject/
 
 ## Remove R.swift
 *.generated.swift
+*.xcuserstate
